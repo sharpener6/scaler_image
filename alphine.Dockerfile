@@ -95,6 +95,7 @@ resolve_python_version() {
 }
 
 main() {
+  sleep 3600
   # Resolve target interpreter
   TARGET_PY="$(resolve_python_version "${PYTHON_VERSION:-}")"
 

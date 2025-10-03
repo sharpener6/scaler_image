@@ -83,7 +83,6 @@ resolve_python_version() {
 }
 
 main() {
-  sleep 3600
   TARGET_PY="$(resolve_python_version "${PYTHON_VERSION:-}")"
 
   # If a specific version was requested, set PYENV_VERSION so bare 'python' uses it
